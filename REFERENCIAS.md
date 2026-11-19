@@ -33,6 +33,8 @@ Se só tiveres tempo para três coisas:
 | Recurso | Descrição |
 |---------|-----------|
 | [Curso em Vídeo: Git e GitHub](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA) | Curso gratuito para iniciantes, de Gustavo Guanabara. Usa a interface gráfica, bom complemento ao terminal |
+| [Dev Aprender: Curso de Git e GitHub completo](https://www.youtube.com/watch?v=kB5e-gTAl_s) | Curso gratuito para iniciantes, de Jhonatan de Souza, com desafios e prática. O canal é focado em automação com Python |
+| [Fabio Akita: Entendendo Git](https://www.youtube.com/watch?v=6Czd1Yetaac) | Explica como o Git funciona por dentro. Para ver depois de dominar o básico |
 
 ### Consulta rápida
 
@@ -69,6 +71,20 @@ Se só tiveres tempo para três coisas:
 | Resource | Description |
 |----------|-------------|
 | [Git and GitHub for Beginners (freeCodeCamp)](https://www.youtube.com/watch?v=RGOj5yH7evk) | One-hour crash course |
+| [Fireship: Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE) | The whole idea in under two minutes |
+| [Colt Steele: Learn Git In 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE) | Fast, clear overview of the core commands |
+| [Programming with Mosh: Git Tutorial for Beginners](https://www.youtube.com/watch?v=8JJ101D3knE) | Learn Git in one hour, well structured |
+| [Corey Schafer: Git Tutorial for Beginners](https://www.youtube.com/watch?v=HVsySz-h9r4) | Command-line fundamentals, explained calmly |
+| [Tech With Tim: Git & GitHub Fundamentals In Depth](https://www.youtube.com/watch?v=DVRQoVRzMIY) | Longer, more detailed walkthrough |
+
+### Paid courses
+
+These are paid courses on Udemy from highly rated instructors. Udemy runs frequent sales, so check the price before buying.
+
+| Resource | Description |
+|----------|-------------|
+| [Colt Steele: The Git & GitHub Bootcamp](https://www.udemy.com/course/git-and-github-bootcamp/) | Full Git course, from the basics to rebasing and collaboration |
+| [Angela Yu: 100 Days of Code, The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/) | One Python project per day, including automation, web scraping and APIs. A good companion for the next stage of this track |
 
 ### Quick reference
 

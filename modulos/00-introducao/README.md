@@ -100,6 +100,10 @@ O [glossário](../../materiais/glossario.md) tem a lista completa.
 2. Pensa num trabalho (escolar ou profissional) em que perdeste uma versão de um ficheiro. Como é que um histórico de versões teria ajudado?
 3. Visita o repositório do Python em <https://github.com/python/cpython>. Encontra o número de commits e o número de contribuidores.
 
+## Quiz
+
+Testa o que aprendeste no [quiz do módulo 00](quiz.md).
+
 ## Checklist
 
 - [ ] Sei explicar para que serve o controlo de versões.

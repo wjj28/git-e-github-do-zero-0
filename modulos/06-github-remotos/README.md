@@ -105,6 +105,21 @@ git pull     # fetch + merge: descarrega e integra
 
 O `fetch` é seguro: permite ver o que há de novo antes de integrar. Depois de um `fetch`, o `git status` diz-te se estás atrás ou à frente do remoto.
 
+### O que é `origin/main`
+
+No `git log --oneline --graph --all` aparece um nome que não criaste: `origin/main`. É uma **branch de acompanhamento remoto**: um marcador, no teu computador, do sítio onde a `main` do `origin` estava da última vez que falaste com ele.
+
+- Não é atualizada em tempo real. Só muda quando fazes `fetch`, `pull` ou `push`.
+- Não trabalhas nela. Os teus commits vão para a tua `main`.
+
+Depois de um `fetch`, podes ver o que chegou antes de integrar:
+
+```bash
+git fetch
+git log --oneline main..origin/main    # commits que o remoto tem e tu não
+git merge origin/main                  # integra-os (é o que o pull faz por ti)
+```
+
 ### Push rejeitado
 
 Se o remoto tiver commits que tu não tens, o `git push` é rejeitado. A solução é integrar primeiro:
@@ -144,6 +159,12 @@ git push origin --delete nome        # apaga uma branch no remoto
 4. Clona o teu próprio repositório para outra pasta (`git clone <url> copia-diario`). Faz um commit na cópia, envia-o e traz essa alteração para a pasta original.
 5. Cria uma branch local, publica-a no GitHub e encontra-a no site.
 6. Configura a autenticação por SSH e muda o endereço do remoto com `git remote set-url origin git@github.com:UTILIZADOR/meu-diario.git`.
+
+## Quiz e desafio
+
+- Testa o que aprendeste no [quiz do módulo 06](quiz.md).
+- Faz a Etapa 4 do [Desafio Learn Git Branching](../../desafios/learn-git-branching.md).
+- Clona e resolve [The Command Line Murders](../../desafios/README.md#the-command-line-murders), um mistério policial que se joga no terminal.
 
 ## Checklist
 

@@ -82,10 +82,21 @@ git remote -v
 
 ## Desafios extra
 
+- Chega à meta Prata do [Desafio Learn Git Branching](../../desafios/learn-git-branching.md) e regista o progresso em `apontamentos/learn-git-branching.md`, com um commit por etapa.
 - Protege a branch `main` para exigir pull request.
 - Cria um modelo de issue em `.github/ISSUE_TEMPLATE/`.
 - Cria o repositório de perfil (com o nome do teu utilizador) e fixa o `estudos-python` no perfil.
 - Configura a autenticação por SSH, se ainda usas HTTPS.
+
+## Exercícios
+
+Revisão final, para fazer depois de entregares o projeto.
+
+1. Sem consultar nada, escreve num papel a sequência completa de comandos de uma tarefa, desde atualizar a `main` até apagar a branch depois do PR integrado. Compara com o "Fluxo completo de uma tarefa" da [cheatsheet](../../materiais/cheatsheet.md).
+2. Refaz os quizzes dos módulos onde erraste mais de duas perguntas.
+3. Abre o `git log --oneline` do teu projeto e escolhe o commit com a pior mensagem. Como a escreverias hoje?
+4. Explica a um colega, em dois minutos e sem computador, a diferença entre `merge` e `rebase`.
+5. Escolhe, em [Jogos e prática interativa](../../desafios/README.md), um jogo que ainda não fizeste e completa-o.
 
 ## E agora?
 

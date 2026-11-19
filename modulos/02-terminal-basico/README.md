@@ -138,6 +138,11 @@ A pasta `curso-git` vai ser a tua base de trabalho nos próximos módulos.
 5. Apaga a pasta `exercicio` inteira.
 6. O que faz `cd ../..`? Experimenta e confirma com `pwd`.
 
+## Quiz e jogo
+
+- Testa o que aprendeste no [quiz do módulo 02](quiz.md).
+- Joga o [Terminus](../../desafios/README.md#terminus), uma aventura de texto onde te deslocas com `cd` e `ls`, e faz os exercícios indicados.
+
 ## Checklist
 
 - [ ] Sei sempre em que pasta estou (`pwd`).

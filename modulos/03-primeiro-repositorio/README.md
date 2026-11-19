@@ -143,6 +143,11 @@ No [módulo 08](../08-boas-praticas/README.md) aprofundamos as mensagens de comm
 4. Corre `git log --oneline`. Quantos commits tens?
 5. Depois de um `git add`, o que diz o `git status` sobre como retirar o ficheiro da área de preparação? (Não precisas de executar. É matéria do próximo módulo.)
 
+## Quiz e jogo
+
+- Testa o que aprendeste no [quiz do módulo 03](quiz.md).
+- Joga o ato 1 do [Gitvana](../../desafios/README.md#gitvana), que treina `init`, `add`, `commit`, `status` e `log` no browser.
+
 ## Checklist
 
 - [ ] Sei criar um repositório com `git init`.

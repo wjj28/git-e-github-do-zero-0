@@ -167,7 +167,12 @@ git merge --abort
 3. Repete o exemplo do conflito com um ficheiro e textos teus. Resolve-o combinando as duas versões.
 4. Provoca outro conflito e, desta vez, desiste com `git merge --abort`.
 5. Tenta apagar com `git branch -d` uma branch que ainda não foi integrada. O que diz o Git?
-6. Joga os primeiros níveis do [Learn Git Branching](https://learngitbranching.js.org/?locale=pt_BR).
+
+## Quiz e desafio
+
+- Testa o que aprendeste no [quiz do módulo 05](quiz.md).
+- Faz as Etapas 2 e 3 do [Desafio Learn Git Branching](../../desafios/learn-git-branching.md), um jogo no browser onde vês a árvore de commits a mudar a cada comando.
+- Joga o ato 2 do [Gitvana](../../desafios/README.md#gitvana), com branches e merges feitos sobre ficheiros verdadeiros.
 
 ## Checklist
 

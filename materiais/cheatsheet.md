@@ -84,7 +84,11 @@ Os comandos mais usados, por situação. O texto entre `< >` é para substituir.
 | `git stash pop` | Recupera o que foi guardado |
 | `git tag -a v1.0.0 -m "mensagem"` | Cria uma tag |
 | `git push origin --tags` | Envia as tags |
+| `git describe` | Mostra a tag mais próxima e a distância até ela |
 | `git rebase <branch>` | Reaplica os commits em cima de outra branch |
+| `git rebase -i HEAD~3` | Revê os últimos 3 commits: juntar, reordenar, apagar |
+| `git pull --rebase` | Traz as novidades e reaplica os teus commits locais por cima |
+| `git switch --detach <hash>` | Visita um commit antigo (HEAD separado) |
 | `git cherry-pick <hash>` | Copia um commit para a branch atual |
 | `git reflog` | Mostra todos os movimentos do `HEAD` |
 

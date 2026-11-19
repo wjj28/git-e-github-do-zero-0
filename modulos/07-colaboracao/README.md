@@ -150,6 +150,11 @@ Recomenda-se proteger a `main` (*Settings → Branches*) para obrigar a que toda
 4. Faz fork do repositório [first-contributions](https://github.com/firstcontributions/first-contributions) e segue as instruções para o teu primeiro PR num projeto público.
 5. Faz fork deste curso, corrige uma gralha ou melhora uma explicação, e abre um PR.
 
+## Quiz e prática guiada
+
+- Testa o que aprendeste no [quiz do módulo 07](quiz.md).
+- Faz os cursos *Introduction to GitHub*, *Review pull requests* e *Resolve merge conflicts* do [GitHub Skills](../../desafios/README.md#github-skills), onde um robô te dá tarefas na tua própria conta.
+
 ## Checklist
 
 - [ ] Sei descrever os passos do GitHub Flow.

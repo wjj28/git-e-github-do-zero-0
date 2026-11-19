@@ -7,7 +7,7 @@ Recursos gratuitos para aprofundar, em português e em inglês. Cada módulo tem
 Se só tiveres tempo para três coisas:
 
 1. **Ler:** os capítulos 1 a 3 do [Pro Git](https://git-scm.com/book/pt-br/v2).
-2. **Praticar:** o jogo [Learn Git Branching](https://learngitbranching.js.org/?locale=pt_BR).
+2. **Praticar:** o jogo [Learn Git Branching](https://learngitbranching.js.org/?locale=pt_BR), seguindo o [roteiro do desafio](desafios/learn-git-branching.md).
 3. **Fazer:** o exercício [first-contributions](https://github.com/firstcontributions/first-contributions).
 
 ## Português 🇵🇹 🇧🇷
@@ -27,6 +27,9 @@ Se só tiveres tempo para três coisas:
 |---------|-----------|
 | [Learn Git Branching](https://learngitbranching.js.org/?locale=pt_BR) | Jogo no browser para treinar branches, merge e rebase |
 | [first-contributions](https://github.com/firstcontributions/first-contributions/blob/main/docs/translations/README.pt_br.md) | O teu primeiro pull request num projeto público, com guia em português |
+| [Markdown Tutorial](https://www.markdowntutorial.com/pt-br) | Sete lições de Markdown com exercícios que se corrigem sozinhos |
+
+A página [Jogos e prática interativa](desafios/README.md) indica que jogo fazer em cada módulo.
 
 ### Vídeo
 
@@ -65,6 +68,11 @@ Se só tiveres tempo para três coisas:
 | [Learn Git Branching](https://learngitbranching.js.org) | Browser game for branching, merging and rebasing |
 | [Oh My Git!](https://ohmygit.org) | Open source game that visualises a real repository |
 | [Visualizing Git](https://git-school.github.io/visualizing-git/) | Type commands and watch the commit graph change |
+| [Gitvana](https://gitvana.pixari.dev) | Browser puzzle game that runs real Git commands, 35 levels |
+| [Git Exercises](https://gitexercises.fracz.com) | Exercises solved in your own terminal and checked on push |
+| [Terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html) | Text adventure from MIT that teaches the command line |
+| [The Command Line Murders](https://github.com/veltman/clmystery) | A murder mystery solved with terminal commands |
+| [CommonMark tutorial](https://commonmark.org/help/tutorial/) | Interactive Markdown lessons |
 
 ### Video
 

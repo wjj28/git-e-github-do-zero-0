@@ -11,6 +11,7 @@ Os termos de Git e GitHub usam-se quase sempre em inglês, mesmo em equipas que 
 | **Clone** | Cópia completa de um repositório remoto no teu computador |
 | **Commit** | Registo ("fotografia") do estado do projeto, com autor, data e mensagem |
 | **Conflito** (conflict) | Situação em que o Git não consegue juntar alterações sozinho, porque tocam nas mesmas linhas |
+| **Detached HEAD** (HEAD separado) | Estado em que o `HEAD` aponta diretamente para um commit e não para uma branch |
 | **Diff** | Diferença entre duas versões, linha a linha |
 | **Fast-forward** | Merge em que a branch apenas avança, sem criar commit de merge |
 | **Fetch** | Descarregar novidades do remoto sem as integrar |
@@ -32,11 +33,13 @@ Os termos de Git e GitHub usam-se quase sempre em inglês, mesmo em equipas que 
 | **Repositório** (repo) | Pasta do projeto com todo o seu histórico |
 | **Revert** | Criar um commit que anula as alterações de outro |
 | **Review** (revisão) | Leitura e comentário das alterações de um PR por outra pessoa |
+| **Squash** | Juntar vários commits num só, normalmente com rebase interativo |
 | **SSH** | Protocolo de ligação segura, usado para autenticação com chaves |
 | **Staging area** (área de preparação, index) | Onde ficam as alterações escolhidas para o próximo commit |
 | **Stash** | Arrumar temporariamente alterações que ainda não queres gravar |
 | **Tag** | Nome fixo dado a um commit, normalmente para marcar versões |
 | **Token** | Código que substitui a palavra-passe na autenticação |
+| **Tracking branch** (branch de acompanhamento remoto) | Marcador local da posição de uma branch do remoto, por exemplo `origin/main` |
 | **Tracked / untracked** | Ficheiro que o Git acompanha / que o Git ainda não acompanha |
 | **Upstream** | O repositório original de onde fizeste fork. Também: a branch remota ligada à tua branch local |
 | **Working directory** (pasta de trabalho) | Os ficheiros do projeto tal como estão no disco |

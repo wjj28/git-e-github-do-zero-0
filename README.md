@@ -22,7 +22,8 @@ Não precisas de saber programar. Só precisas de um computador e de vontade de 
 
 - Segue os módulos **por ordem**. Cada um parte do que foi feito no anterior.
 - **Escreve os comandos à mão**, não copies e coles. É assim que ficam na memória.
-- Faz os exercícios no fim de cada módulo antes de avançar.
+- Faz os exercícios e o quiz no fim de cada módulo antes de avançar.
+- Acompanha o curso com o [Desafio Learn Git Branching](desafios/learn-git-branching.md), um jogo onde treinas os comandos e vês o resultado desenhado.
 - Quando algo correr mal (vai correr), consulta os [erros comuns](materiais/erros-comuns.md). Errar faz parte.
 
 ## Módulos
@@ -40,6 +41,16 @@ Não precisas de saber programar. Só precisas de um computador e de vontade de 
 | 08 | [Boas práticas](modulos/08-boas-praticas/README.md) | Mensagens de commit, README, Markdown, licenças | 1h30 |
 | 09 | [Ferramentas avançadas](modulos/09-ferramentas-avancadas/README.md) | `stash`, `rebase`, `cherry-pick`, tags, `reflog` | 2 h |
 | 10 | [Projeto final](modulos/10-projeto-final/README.md) | Um projeto completo, do `init` ao pull request | 3 h |
+
+## Quizzes e desafio
+
+Cada módulo de 00 a 09 termina com um quiz de escolha múltipla. As respostas estão escondidas: responde primeiro, abre depois.
+
+[00](modulos/00-introducao/quiz.md) · [01](modulos/01-preparar-ambiente/quiz.md) · [02](modulos/02-terminal-basico/quiz.md) · [03](modulos/03-primeiro-repositorio/quiz.md) · [04](modulos/04-historico-e-desfazer/quiz.md) · [05](modulos/05-branches-e-merge/quiz.md) · [06](modulos/06-github-remotos/quiz.md) · [07](modulos/07-colaboracao/quiz.md) · [08](modulos/08-boas-praticas/quiz.md) · [09](modulos/09-ferramentas-avancadas/quiz.md)
+
+O [Desafio Learn Git Branching](desafios/learn-git-branching.md) organiza os 36 níveis do jogo [Learn Git Branching](https://learngitbranching.js.org/?locale=pt_BR) em seis etapas que acompanham os módulos, com metas Bronze, Prata e Ouro.
+
+Há mais jogos para os outros módulos, do terminal ao Markdown. A página [Jogos e prática interativa](desafios/README.md) diz qual jogar em cada módulo e traz exercícios para cada um.
 
 ## Materiais de apoio
 
@@ -66,6 +77,9 @@ Cada módulo é revisto antes de ser dado como pronto.
 | 09 Ferramentas avançadas | 📝 Rascunho |
 | 10 Projeto final | 📝 Rascunho |
 | Materiais de apoio | 📝 Rascunho |
+| Quizzes (módulos 00 a 09) | 📝 Rascunho |
+| Desafio Learn Git Branching | 📝 Rascunho |
+| Jogos e prática interativa | 📝 Rascunho |
 
 Legenda: 📝 Rascunho · 🔍 Em revisão · ✅ Validado
 

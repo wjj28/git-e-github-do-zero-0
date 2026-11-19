@@ -33,7 +33,23 @@ git show a1b2c3d             # detalhes de um commit específico
 
 Não precisas do hash completo. Os primeiros 7 caracteres chegam.
 
-`HEAD` é o nome que o Git dá ao commit onde estás neste momento. `HEAD~1` é o commit anterior, `HEAD~2` o anterior a esse.
+`HEAD` é o nome que o Git dá ao commit onde estás neste momento. `HEAD~1` é o commit anterior, `HEAD~2` o anterior a esse. Também vais ver `HEAD^`, que é outra forma de escrever `HEAD~1`.
+
+### Visitar um commit antigo
+
+Podes pôr a pasta de trabalho no estado de qualquer commit, só para ver como o projeto estava:
+
+```bash
+git switch --detach a1b2c3d
+```
+
+O Git avisa que ficaste em *detached HEAD* (HEAD separado): o `HEAD` aponta diretamente para um commit e não para uma branch. Podes olhar à vontade. Para voltar ao presente:
+
+```bash
+git switch main
+```
+
+> Commits feitos com o HEAD separado não pertencem a nenhuma branch e perdem-se quando sais de lá. Se quiseres guardar o que fizeste, cria uma branch antes de sair: `git switch -c nome`. As branches são a matéria do próximo módulo.
 
 ## Desfazer: qual comando usar
 
@@ -138,6 +154,12 @@ git rm --cached ficheiro
 4. Faz um commit, desfaz com `git reset --soft HEAD~1` e observa o `git status`. Repete com `--mixed`. Qual é a diferença?
 5. Faz um commit que acrescenta uma linha e anula-o com `git revert`. Quantos commits novos aparecem no `git log`?
 6. Cria `segredo.env` e um `.gitignore` que o ignore. Confirma com `git status` que o Git já não o vê.
+
+## Quiz e desafio
+
+- Testa o que aprendeste no [quiz do módulo 04](quiz.md).
+- Faz a Etapa 1 do [Desafio Learn Git Branching](../../desafios/learn-git-branching.md).
+- Se ainda não acabaste o ato 1 do [Gitvana](../../desafios/README.md#gitvana), termina-o agora: os últimos níveis usam o `git diff`.
 
 ## Checklist
 

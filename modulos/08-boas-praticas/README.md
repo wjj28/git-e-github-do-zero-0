@@ -163,6 +163,12 @@ Para credenciais, o padrão habitual é: o `.env` real fica no `.gitignore`, e n
 5. Cria o repositório de perfil (com o nome do teu utilizador) e escreve uma apresentação.
 6. Percorre os teus repositórios e dá uma descrição a cada um.
 
+## Quiz e prática guiada
+
+- Testa o que aprendeste no [quiz do módulo 08](quiz.md).
+- Completa as sete lições do [Markdown Tutorial](../../desafios/README.md#markdown-tutorial), em português.
+- Faz o curso *Communicate using Markdown* do [GitHub Skills](../../desafios/README.md#github-skills).
+
 ## Checklist
 
 - [ ] As minhas mensagens de commit explicam o que mudou e porquê.

@@ -120,6 +120,10 @@ O VS Code já traz integração com o Git (o ícone *Source Control* na barra la
 2. Corre `git help config`. Onde é que a ajuda abriu?
 3. Preenche o teu perfil do GitHub: fotografia, nome e uma frase de biografia.
 
+## Quiz
+
+Testa o que aprendeste no [quiz do módulo 01](quiz.md).
+
 ## Checklist
 
 - [ ] Tenho conta no GitHub com autenticação de dois fatores.

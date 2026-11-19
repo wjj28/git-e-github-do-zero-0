@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">O percurso do curso em quatro fases</title>
+  <desc id="descricao">Fase 1, primeiros passos: módulos 00 a 02. Fase 2, Git no teu computador: módulos 03 a 05. Fase 3, GitHub: módulos 06 e 07. Fase 4, nível profissional: módulos 08 a 10.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .nome { font-size: 20px; font-weight: 700; fill: #ffffff; }
+    .modulos { font-size: 15px; font-weight: 600; }
+    .temas { font-size: 15px; fill: #9da7b3; }
+    .numero { font-size: 22px; font-weight: 700; fill: #0d1117; text-anchor: middle; }
+    .cartao { fill: #161b22; stroke-width: 2; }
+
+    .trilho { animation: marchar 1.2s linear infinite; }
+    .viajante { animation: viajar 8s ease-in-out infinite; }
+    @keyframes marchar { to { stroke-dashoffset: -24; } }
+    @keyframes viajar { 0% { transform: translateX(0); opacity: 0; } 6% { opacity: 1; } 94% { opacity: 1; } 100% { transform: translateX(890px); opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .viajante { opacity: 0; }
+    }
+  </style>
+
+  <rect width="1200" height="240" rx="24" fill="#0d1117"/>
+
+  <path class="trilho" d="M155 62 H1045" fill="none" stroke="#30363d" stroke-width="4" stroke-dasharray="12 12"/>
+  <circle class="viajante" cx="155" cy="62" r="7" fill="#ffffff"/>
+
+  <rect class="cartao" x="30" y="92" width="250" height="120" rx="14" stroke="#58a6ff"/>
+  <circle cx="155" cy="62" r="24" fill="#58a6ff"/>
+  <text class="numero" x="155" y="70">1</text>
+  <text class="nome" x="50" y="130">Primeiros passos</text>
+  <text class="modulos" x="50" y="158" fill="#58a6ff">Módulos 00 a 02</text>
+  <text class="temas" x="50" y="186">Conta, instalação, terminal</text>
+
+  <rect class="cartao" x="327" y="92" width="250" height="120" rx="14" stroke="#a371f7"/>
+  <circle cx="452" cy="62" r="24" fill="#a371f7"/>
+  <text class="numero" x="452" y="70">2</text>
+  <text class="nome" x="347" y="130">Git no teu computador</text>
+  <text class="modulos" x="347" y="158" fill="#a371f7">Módulos 03 a 05</text>
+  <text class="temas" x="347" y="186">Commits, desfazer, branches</text>
+
+  <rect class="cartao" x="623" y="92" width="250" height="120" rx="14" stroke="#3fb950"/>
+  <circle cx="748" cy="62" r="24" fill="#3fb950"/>
+  <text class="numero" x="748" y="70">3</text>
+  <text class="nome" x="643" y="130">GitHub</text>
+  <text class="modulos" x="643" y="158" fill="#3fb950">Módulos 06 e 07</text>
+  <text class="temas" x="643" y="186">Push, pull, pull requests</text>
+
+  <rect class="cartao" x="920" y="92" width="250" height="120" rx="14" stroke="#f0883e"/>
+  <circle cx="1045" cy="62" r="24" fill="#f0883e"/>
+  <text class="numero" x="1045" y="70">4</text>
+  <text class="nome" x="940" y="130">Nível profissional</text>
+  <text class="modulos" x="940" y="158" fill="#f0883e">Módulos 08 a 10</text>
+  <text class="temas" x="940" y="186">Boas práticas, projeto final</text>
+</svg>

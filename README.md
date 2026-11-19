@@ -7,7 +7,6 @@
 ![Nível: iniciante](https://img.shields.io/badge/n%C3%ADvel-iniciante-3fb950?style=for-the-badge)
 ![11 módulos](https://img.shields.io/badge/m%C3%B3dulos-11-58a6ff?style=for-the-badge)
 ![Cerca de 18 horas](https://img.shields.io/badge/dura%C3%A7%C3%A3o-~18%20horas-a371f7?style=for-the-badge)
-![Gratuito](https://img.shields.io/badge/pre%C3%A7o-gratuito-f0883e?style=for-the-badge)
 
 ### [🚀 Começar o curso](modulos/00-introducao/README.md)
 
